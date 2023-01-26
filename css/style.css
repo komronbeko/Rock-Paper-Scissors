@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(28, 28, 136);
+}
+.container{
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium';
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: rgb(35, 35, 141);
+}
+.intro p{
+    color: blue;
+}
+.intro h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+}
+.game-name{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+}
+.score-count{
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 8px;
+}
+.play{
+    margin: 80px auto;
+    width: max-content;
+    position: relative;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 180px;
+    position: absolute;
+    left: -250px;
+}
+.paper{
+    border: 10px solid rgb(49, 55, 214);
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 30px 40px;
+}
+.scissors{
+    border: 10px solid rgb(255, 225, 0);
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 30px 40px;
+}
+.rock{
+    border: 10px solid rgb(238, 30, 30);
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 35px 40px;
+    position: absolute;
+    left: 165px;
+    top: 230px;
+}
+
+.overall{
+    color: white;
+    font-size: 30px;
+}
+.case1{
+    position: absolute;
+    left: -65px;
+    top: 30px; 
+}
+.case2{
+    position: absolute;
+    left: -165px;
+    top: 160px;  
+}
+.case3{
+    position: absolute;
+    left: -65px;
+    top: 120px;  
+}
+
+.remove{
+    display: none;
+}
+.replay{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+.replayBtn{
+    padding: 15px 30px;
+    border-radius: 6px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+}
